@@ -1,9 +1,44 @@
-html{background-color: beige;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html{background-color: beige;font-family: 'Poppins', sans-serif;}
+
+
+.NavList {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  list-style-type: none;
+  width:max-content;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 15px;
+}
+
+.button {
+  float: left;
+}
+
+.button a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.8s;
+}
+/*Change the link color to #111 (black) on hover */
+.button a:hover {
+  background-color: #111;
+}
+
+
+
 
 .list{
     width: 100%;
     height: auto;
-    margin: 100px auto 300px;
+    margin: 200px auto 300px;
     display: grid;
     grid-template-columns: repeat(2,50%);
     /* grid-template-rows: repeat(2,300px); */
@@ -40,11 +75,12 @@ html{background-color: beige;}
 }
 
 .pp{
+  width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    position: absolute;
-    /* color: wheat; */
+    position: absolute;}
+    /* color: wheat; 
 }
 
 
@@ -55,7 +91,7 @@ html{background-color: beige;}
 .artist{
     margin:10px auto auto  30px;
 }
-
+*/
 img{
     display: block;
     position: relative;
