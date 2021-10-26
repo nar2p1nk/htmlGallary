@@ -4,21 +4,22 @@ html{/*background-color: #352D68;*/font-family: 'Poppins', sans-serif;}
 
 .NavList {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-evenly;
   flex-direction: row;
   list-style-type: none;
-  width:min-content;
+  width:30%;
   margin: auto;
   padding: 0;
   overflow: hidden;
-  background-color: #352d68;
+/*  background-color: #352d68;
   border-radius: 15px;
-  border: 1px solid #352d68;
+  border: 1px solid #352d68;*/
 }
 .button{width: min-content;height: min-content;margin: 0;text-align: center;}
 a {
-  background-color: #352d68;
+  background-color:#352d68;
   width: max-content;
+  border-radius:10px;
  /* border: 2px solid #ff189b;*/
 }
 
@@ -31,16 +32,18 @@ a {
   text-decoration: none;
   text-align: center;
   transition: 0.3s;
-  width: max-content;
+  width: 100px;
+  border: 1px solid rgb(53, 45, 104);
 }
 /*Change the link color to #111 (black) on hover */
 .button a:hover {
 /*  background-color: #352d68;*/
   background-color:white;
   color: #352d68;
+  opacity: 1;
 }
-.home{border-right: 1px solid white;}
-.post{border-left: 1px solid white;}
+/*.home{border-right: 1px solid white;}
+.post{border-left: 1px solid white;}*/
 .list{
     width: 100%;
     height: max-content;
@@ -105,3 +108,4 @@ img{
     height:500px;
     
 }
+
